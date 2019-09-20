@@ -1,0 +1,178 @@
+
+<html>
+        <head>
+                <meta charset="utf-8">
+                <title>Invoice</title>
+                <link rel="stylesheet" href="style.css">
+                <link rel="license" href="https://www.opensource.org/licenses/mit-license/">
+                <script src="script.js"></script>
+	</head>
+	<body>
+                        <img  class="logo" alt="" src="logo.png"><input><br/> 
+		<header>
+            
+            <h1>Invoice</h1>
+           
+			<address contenteditable>
+				<p>Kuwait </p>
+				<p>Salhiya mall- M1<br>shop no 21</p>
+				<p>Mobile : 66777862</p>
+            </address>
+            
+            <address contenteditable class="right">
+                    <p>الكويت </p>
+                    <p> مجمع الصالحية<br>  ميزانين الاول<br> محل ٢١</p>
+                    <p>تلفون : 66777862</p>
+                </address>
+			<span><img alt="" src="http://www.jonathantneal.com/examples/invoice/logo.png"><input type="file" accept="image/*"></span>
+		</header>
+		<article>
+			<h1>Recipient</h1>
+			<address contenteditable>
+			<p> </p>
+            </address>
+            <table class="l">
+                    <tr>    <th><span contenteditable>Invoice # </span></th>
+                            <td><span contenteditable>101138</span></td>
+                        
+                        
+                    </tr>
+                    <tr>    <th><span contenteditable> Customer</span></th>
+                            <td><span contenteditable></span></td>
+                            
+                            
+                    </tr>
+                    <tr>    <th><span contenteditable>Mobile </span></th>
+                            <td><span contenteditable>+956</span></td>
+                            
+                            
+                    </tr>
+                    <tr> <th><span contenteditable> Date</span></th>
+                        <td><span contenteditable><input type="date"></span></td>
+                        
+                        
+                    </tr>
+                    <tr>
+                            <th><span contenteditable> Occasion</span></th>
+                            <td><span contenteditable><input type="date"></span></td>
+                           
+                    </tr>
+                    <tr>
+                               <th><span contenteditable>Place </span></th>
+                                <td><span contenteditable>Salmya</span></td>
+                               
+                    </tr>
+                    <tr>
+                            <th><span contenteditable>Amount Due</span></th>
+                        <td><span id="prefix" contenteditable>K.D</span><span>600.00</span></td>
+                        
+                    </tr> 
+                  
+                </table>
+			<table class="meta">
+				<tr>
+                        <td><span contenteditable>101138</span></td>
+					<th><span contenteditable># رقم الفاتورة</span></th>
+					
+                </tr>
+                <tr>
+                        <td><span contenteditable></span></td>
+                        <th><span contenteditable>أسم العميل</span></th>
+                        
+                </tr>
+                <tr>
+                        <td><span contenteditable>+956</span></td>
+                        <th><span contenteditable>رقم الهاتف</span></th>
+                        
+                </tr>
+				<tr> 
+                    <td><span contenteditable> <input type="date"> </span></td>
+					<th><span contenteditable>تاريخ الشراء</span></th>
+					
+                </tr>
+                <tr>
+                      
+                        <td><span contenteditable><input type="date"></span></td>
+                        <th><span contenteditable>تاريخ المناسبة</span></th>
+                </tr>
+                <tr>
+                           
+                            <td><span contenteditable>Salmya</span></td>
+                            <th><span contenteditable>مكان المناسبة</span></th>
+                </tr>
+                <tr>
+                        <th><span contenteditable>Amount Due </span></th>
+                    <td><span id="prefix" contenteditable>ك.د</span><span>600.00</span></td>
+                    
+                </tr> 
+			</table>
+			<table class="inventory">
+				<thead>
+					<tr>
+						<th><span contenteditable>Item</span></th>
+						<th><span contenteditable>Description</span></th>
+						<th><span contenteditable>Rate</span></th>
+						<th><span contenteditable>Quantity</span></th>
+						<th><span contenteditable>Price</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a class="cut">-</a><span contenteditable>Front End Consultation</span></td>
+						<td><span contenteditable>Experience Review</span></td>
+						<td><span data-prefix>K.D</span><span contenteditable>150.00</span></td>
+						<td><span contenteditable>4</span></td>
+						<td><span data-prefix>K.D</span><span>600.00</span></td>
+					</tr>
+				</tbody>
+			</table>
+			<a class="add">+</a>
+			<table class="balance">
+				<tr>
+					<th><span contenteditable>Total</span></th>
+					<td><span data-prefix>$</span><span>600.00</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Amount Paid</span></th>
+					<td><span data-prefix>$</span><span contenteditable>0.00</span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Balance Due</span></th>
+					<td><span data-prefix>$</span><span>600.00</span></td>
+				</tr>
+			</table>
+		</article>
+		<aside>
+			<h1><span contenteditable>Additional Notes</span></h1>
+			<div contenteditable>
+				<p><center>ملاحظة مهمة</center>
+ <br>
+                    للزبون 
+                    الحق في 
+                    استرجاع كامل مبلغ 
+                    القطعة خلال 
+                    ٢٤ ساعة من 
+                    مدة الشراء
+                    مع 
+                    الاحتقاظ
+                    بسلامة 
+                    القطعة 
+                    ونظافتها
+                    وفاتورة الشراء</p>
+			</div>
+        </aside>
+        <br/>
+        <!-- <button onclick="myFunction()">Print this page</button> -->
+
+        <!-- <script>
+        function myFunction() {
+         
+        }
+        </script> -->
+      
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+      
+        
+  
+    </body>
+</html> 
